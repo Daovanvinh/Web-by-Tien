@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <link rel="stylesheet" href="css/admin1.css">
+    <title>Quản lý Tác giả Văn học</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2 class="logo">NHASACHTV</h2>
+        <ul class="menu">
+            <li>
+                <a href="#"><i class="fas fa-home"></i> Bảng điều khiển <i class="fas fa-chevron-right"></i></a>
+            </li>
+            <li>
+                <a href="#" class="li3"><i class="fas fa-circle-dot"></i>
+                    <p>Danh sách tác giả</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="li3"><i class="fas fa-circle-dot"></i>
+                    <p>Sách</p>
+                </a>
+            </li>
+            <li>
+                <a href="#" class="li3"><i class="fas fa-circle-dot"></i>
+                    <p>Logout</p>
+                </a>
+            </li>
+            <li>
+                <a href="/index.html" class="li3"><i class="fas fa-circle-dot"></i>
+                    <p>Trang Web</p>
+                </a>
+            </li>
+        </ul>
+    </div>
+    <div class="main">
+        <header class="navbar">
+            <div class="left">
+                <h2>Trang Chủ</h2>
+            </div>
+            <div class="center">
+                <input type="text" placeholder=" Tác giả">
+            </div>
+            <div class="right">
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-envelope"></i>
+                <div class="user">
+                    <img src="/images/user.jpg" alt="Avatar">
+                    <div class="info">
+                        <span id="username"></span>
+                        <a href="/login.html">Tài Khoản</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="category-list">
+            <div class="category-header">
+                <h2>Danh sách tác giả văn học</h2>
+                <button class="add-category">Thêm tác giả mới</button>
+            </div>
+            <div class="category-filter">
+                <div class="show-entries">
+                    Show
+                    <select>
+                        <option>10</option>
+                        <option>20</option>
+                        <option>50</option>
+                    </select>
+                    entries
+                </div>
+                <div class="search-input">
+                    Search: <input type="text">
+                </div>
+            </div>
+            <table>
+                <thead>
+                    <tr>
+                        <th>STT</th>
+                        <th>Tên tác giả</th>
+                        <th>Tiểu sử</th>
+                        <th>Hoạt động</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>1</td>
+                        <td>Nguyễn Nhật Ánh</td>
+                        <td>Nguyễn Nhật Ánh là một nhà văn Việt Nam nổi tiếng với nhiều tác phẩm văn học dành cho thiếu nhi và tuổi mới lớn.</td>
+                        <td>
+                            <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>2</td>
+                        <td>Nam Cao</td>
+                        <td>Nam Cao là một trong những nhà văn tiêu biểu của văn học Việt Nam hiện đại, nổi tiếng với các tác phẩm phản ánh hiện thực xã hội Việt Nam trước Cách mạng tháng Tám.</td>
+                        <td>
+                            <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>3</td>
+                        <td>Xuân Diệu</td>
+                        <td>Xuân Diệu là một trong những nhà thơ lớn của Việt Nam, được mệnh danh là "ông hoàng thơ tình".</td>
+                        <td>
+                            <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>4</td>
+                        <td>Hồ Chí Minh</td>
+                        <td>Hồ Chí Minh không chỉ là một nhà lãnh đạo vĩ đại mà còn là một nhà văn, nhà thơ với nhiều tác phẩm có giá trị.</td>
+                        <td>
+                            <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>5</td>
+                        <td>Tố Hữu</td>
+                        <td>Tố Hữu là một nhà thơ cách mạng nổi tiếng của Việt Nam, gắn liền với các tác phẩm về đề tài cách mạng và kháng chiến.</td>
+                        <td>
+                            <button class="edit-btn"><i class="fas fa-edit"></i></button>
+                            <button class="delete-btn"><i class="fas fa-trash-alt"></i></button>
+                        </td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+        <div class="footer">
+            <a href="#">Chính Sách </a>
+            <a href="#">Điều Khoản</a>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="js/admin.js"></script>
+</body>
+
+</html>

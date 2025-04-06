@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/chitiet.css">
+    <title>Mua Hàng</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2 class="logo">NHASACHTV</h2>
+        <ul class="menu">
+            <li><a href="#"><i class="fas fa-home"></i> Trang Chủ <i class="fas fa-chevron-right"></i></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-btn">
+                    <i class="fas fa-list"></i> Danh Mục Sản Phẩm
+                    <i class="fas fa-chevron-right arrow "></i>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Trong Nước <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Kinh Tế <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Ngoại Ngữ <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Văn Học <i
+                                class="fas fa-chevron-right"></i></a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="li3"><i class="fas fa-heart"></i>
+                    <p>Yêu thích</p>
+                </a></li>
+            <li><a href="#" class="li3"><i class="fas fa-book"></i>
+                    <p>Sách PDF</p>
+                </a></li>
+            <li><a href="/login.html" class="li3"><i class="fas fa-sign-out-alt"></i>
+                    <p>Logout</p>
+                </a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <header class="navbar">
+            <div class="left">
+                <h2>Thông Tin</h2>
+            </div>
+            <div class="center">
+                <input type="text" placeholder="🔍 sách cũ">
+            </div>
+            <div class="right">
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-envelope"></i>
+                <div class="cart">
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">2</span>
+                    </a>
+                </div>
+                <div class="user">
+                    <img src="/images/user.jpg" alt="Avatar">
+                    <div class="info">
+                        <span id="username"></span>
+                        <a href="/login.html">Tài Khoản</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="container">
+            <div class="left-section">
+                <img src="/images/sach1.jpg" alt="Bìa sách Payback Time" class="cover-image">
+                <div class="small-images">
+                    <img src="/images/sach2.jpg" alt="Ảnh nhỏ 1">
+                    <img src="/images/sach3.jpg" alt="Ảnh nhỏ 2">
+                    <img src="/images/sach7.jpg" alt="Ảnh nhỏ 3">
+                </div>
+            </div>
+            <div class="right-section">
+                <h1>Payback Time - Ngày Đòi Nợ</h1>
+                <p class="price">350.000 ₫ <span class="discounted-price">299.000 ₫</span></p>
+                <div class="rating">★★★★★</div>
+                <p class="description">"Trong chứng khoán và thị trường tài chính, dám tham gia đầu tư cũng là một thành
+                    công tâm lý ban đầu. Dù vậy, 95% nhà đầu tư Việt Nam thuộc nhóm nhà đầu tư nhỏ lẻ với vốn kiến thức
+                    tài chính vô cùng hạn chế. Họ tham gia vào thị trường chứng khoán với 100% ý chí và sự quyết tâm
+                    chiến thắng thị trường, nhưng thật không may mắn kết cục cuối cùng của họ luôn là sự thất bại và mất
+                    tiền."</p>
+                <p class="author">Tác giả: HappyLive</p>
+                <p class="quote">Kiếm một số tiền lớn là cách trả thù tốt nhất để đòi lại tương lai tài chính đã bị cướp
+                    đi trước đây.</p>
+                <div class="buttons">
+                    <button class="add-to-cart">Thêm vào giỏ hàng</button>
+                    <button class="buy-now">Mua ngay</button>
+                </div>
+                <button class="add-to-wishlist">Thêm vào danh sách yêu thích</button>
+                <div class="share">
+                    Chia sẻ:
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="comments">
+            <h2>Bình luận (1)</h2>
+            <div class="comment">
+                <div class="user-info">
+                    <img src="/images/user.jpg" alt="Avatar">
+                    <span class="username">User 1 - </span>
+                    <span class="time">12:30 PM, 12/01/2022</span>
+                </div>
+                <p class="comment-content">Ngon rồi, mình thử đc xem nhé.</p>
+            </div>
+            <form class="add-comment">
+                <textarea placeholder="Nhập bình luận..."></textarea>
+                <button type="submit">Gửi</button>
+            </form>
+            <a href = "index.html">Tiếp tục mua sắm</a>
+        </div>
+        <div class="footer">
+            <p>Copyright 2022 NHASACHTV. All rights reserved.</p>
+            <div class="social-media">
+                <a href="#"><i class="fab fa-facebook-f"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-youtube"></i></a>
+                <a href="#"><i class="fab fa-instagram"></i></a>
+            </div>
+            <div class="payment-methods">
+                <img src="/images/payment-methods.png" alt="Payment methods">
+            </div>
+        </div>
+    </div>
+    <script src="js/home.js"></script>
+</body>
+
+</html>

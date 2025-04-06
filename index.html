@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="/css/home.css">
+    <title>Trang chủ</title>
+</head>
+
+<body>
+    <div class="sidebar">
+        <h2 class="logo">NHASACHTV</h2>
+        <ul class="menu">
+            <li><a href="#"><i class="fas fa-home"></i> Trang Chủ <i class="fas fa-chevron-right"></i></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-btn">
+                    <i class="fas fa-list"></i> Danh Mục Sản Phẩm
+                    <i class="fas fa-chevron-right arrow "></i>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Trong Nước <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Kinh Tế <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Ngoại Ngữ <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Văn Học <i
+                                class="fas fa-chevron-right"></i></a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="li3"><i class="fas fa-heart"></i>
+                    <p>Yêu thích</p>
+                </a></li>
+            <li><a href="#" class="li3"><i class="fas fa-book"></i>
+                    <p>Sách PDF</p>
+                </a></li>
+            <li><a href="/login.html" class="li3"><i class="fas fa-sign-out-alt"></i>
+                    <p>Logout</p>
+                </a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <header class="navbar">
+            <div class="left">
+                <h2>Trang Chủ</h2>
+            </div>
+            <div class="center">
+                <input type="text" placeholder="🔍 sách cũ">
+            </div>
+            <div class="right">
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-envelope"></i>
+                <div class="cart">
+                    <a href="cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">2</span>
+                    </a>
+                </div>
+                <div class="user">
+                    <img src="/images/user.jpg" alt="Avatar">
+                    <div class="info">
+                        <span id="username"></span>
+                        <a href="/login.html">Tài Khoản</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <section class="slideshow">
+            <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="/images/slideshow1.jpeg" class="d-block w-100" alt="Slide 1">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/slideshow2.jpeg" class="d-block w-100" alt="Slide 2">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="/images/slideshow3.jpeg" class="d-block w-100" alt="Slide 3">
+                    </div>
+                </div>
+
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                </button>
+            </div>
+        </section>
+        <section class="products">
+            <div class="head">
+                <h2>Gợi ý cho bạn</h2>
+                <a href="#" class="see-all">Xem tất cả <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div id="product-list" class="row"></div>
+        </section>
+        <section class="news">
+            <div class="section">
+                <div class="section-header">
+                    <h2>Best Seller</h2>
+                    <span>Trong ngày <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="best-seller">
+                    <img src="/images/bestseller.jpg" alt="Payback Time">
+                    <div class="book-info">
+                        <h3>Payback Time <br> Ngày Đòi Nợ</h3>
+                        <p><strong>Tác Giả:</strong> Phill Town</p>
+                        <p>⭐⭐⭐⭐⭐</p>
+                        <p>NGÀY ĐÒI NỢ – Payback Time “Một cuộc sống hạnh phúc được bắt đầu từ những quyết định đầu tư
+                            khôn ngoan”</p>
+                        <button class="btn">Xem thêm</button>
+                    </div>
+                </div>
+            </div>
+
+            <div class="section">
+                <div class="section-header">
+                    <h2>Nhà Sách TV</h2>
+                    <span>Ngày <i class="fas fa-chevron-down"></i></span>
+                </div>
+                <div class="category-list">
+                    <div class="category-item">
+                        <img src="/images/kinhte.png" alt="Avatar">
+                        <div class="category-info">
+                            <h4>Kinh Tế</h4>
+                            <p class="books-count">Publish Books: <span>2831</span></p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="/images/tamly.png" alt="Avatar">
+                        <div class="category-info">
+                            <h4>Tâm Lý - Kĩ Năng Sống</h4>
+                            <p class="books-count">Publish Books: <span>5471</span></p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="/images/chinhtri.png" alt="Avatar">
+                        <div class="category-info">
+                            <h4>Chính trị - pháp luật</h4>
+                            <p class="books-count">Publish Books: <span>8987</span></p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="/images/vanhoc.png" alt="Avatar">
+                        <div class="category-info">
+                            <h4>Văn Học</h4>
+                            <p class="books-count">Publish Books: <span>432</span></p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="/images/giaokhoa.jpg" alt="Avatar">
+                        <div class="category-info">
+                            <h4>Sách Giáo Khoa</h4>
+                            <p class="books-count">Publish Books: <span>8764</span></p>
+                        </div>
+                    </div>
+                    <div class="category-item">
+                        <img src="/images/khoahojc.png" alt="Avatar">
+                        <div class="category-info">
+                            <h4>Khoa Học - Công Nghệ</h4>
+                            <p class="books-count">Publish Books: <span>2831</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="favorite">
+            <div class="head">
+                <h2>Sách yêu thích của bạn</h2>
+                <a href="#" class="see-all">Xem thêm <i class="fas fa-angle-right"></i></a>
+            </div>
+            <div id="favorite-list" class="row">
+                <div class="book-item">
+                    <img src="/images/fvr1.jpg" alt="Book 1">
+                    <div class="book-info">
+                        <h3><strong>Người Bán Hàng Vĩ Đại Nhất Thế Giới</strong></h3>
+                        <p>By <strong>Author 1</strong></p>
+                        <div class="sold-container">
+                            <div class="sold-text">Đã bán: 69</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 20%;"></div>
+                            </div>
+                        </div>
+                        <button class="btn">Đọc ngay <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="book-item">
+                    <img src="/images/fvr2.jpg" alt="Book 1">
+                    <div class="book-info">
+                        <h3><strong>Một Đời Quản Trị</strong></h3>
+                        <p>By <strong>Author 1</strong></p>
+                        <div class="sold-container">
+                            <div class="sold-text">Đã bán: 109</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 60%;"></div>
+                            </div>
+                        </div>
+                        <button class="btn">Đọc ngay <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="book-item">
+                    <img src="/images/fvr3.jpg" alt="Book 1">
+                    <div class="book-info">
+                        <h3><strong>Đời Làm Bán Hàng</strong></h3>
+                        <p>By <strong>Author 1</strong></p>
+                        <div class="sold-container">
+                            <div class="sold-text">Đã bán: 39</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 15%;"></div>
+                            </div>
+                        </div>
+                        <button class="btn">Đọc ngay <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+                <div class="book-item">
+                    <img src="/images/fvr4.jpg" alt="Book 1">
+                    <div class="book-info">
+                        <h3><strong>Economic - Các Nền Kinh Tế Vận Hành</strong></h3>
+                        <p>By <strong>Author 1</strong></p>
+                        <div class="sold-container">
+                            <div class="sold-text">Đã bán: 900</div>
+                            <div class="progress-bar">
+                                <div class="progress" style="width: 98%;"></div>
+                            </div>
+                        </div>
+                        <button class="btn">Đọc ngay <i class="fas fa-angle-right"></i></button>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <section class="footer">
+            <div class="row">
+                <div class="col-md-4">
+                    <h3>Về Chúng Tôi</h3>
+                    <p>Chúng tôi là một cộng đồng yêu sách với mục tiêu lan tỏa tri thức và niềm đam mê đọc sách đến mọi
+                        người. Tại đây, bạn có thể tìm thấy những cuốn sách hay, đánh giá chân thực và các thông tin hữu
+                        ích về văn hóa đọc.</p>
+                </div>
+                <div class="col-md-4">
+                    <h3>Hỗ Trợ & Liên Hệ</h3>
+                    <ul>
+                        <li><a href="#">Liên Hệ Chúng Tôi</a></li>
+                        <li><a href="#">Câu Hỏi Thường Gặp</a></li>
+                        <li><a href="#">Chính Sách Đổi Trả</a></li>
+                        <li><a href="#">Điều Khoản & Điều Kiện</a></li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+    </div>
+    <script src="/js/home.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

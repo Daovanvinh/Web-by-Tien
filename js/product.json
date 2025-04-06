@@ -1,0 +1,66 @@
+[
+    {
+        "title": "Bí Quyết Làm Giàu Của Napoleon Hill",
+        "author": "Napoleon Hill",
+        "price": "79.000 đ",
+        "image": "/images/sach1.jpg",
+        "rating": 5,
+        "url": "chitiet.html"
+    },
+    {
+        "title": "Cha Giàu Cha Nghèo",
+        "author": "Ichae Semos",
+        "price": "39.000 đ",
+        "image": "/images/sach2.jpg",
+        "rating": 5,
+        "url": "chitiet1.html"
+    },
+    {
+        "title": "Giáo Dục Và Phát Triển Năng Khí",
+        "author": "Bruce Lee",
+        "price": "69.000 đ",
+        "image": "/images/sach3.jpg",
+        "rating": 4,
+        "url": "chitiet2.html"
+    },
+    {
+        "title": "Nghề Giảm Béo",
+        "author": "Nguyen Thi Thanh Nhan",
+        "price": "49.000 đ",
+        "image": "/images/sach4.jpg",
+        "rating": 3,
+        "url": "chitiet3.html"
+    },
+    {
+        "title": "Thần Thoại Của Thiên Nhân",
+        "author": "Thi Thanh Nhan",
+        "price": "59.000 đ",
+        "image": "/images/sach5.jpg",
+        "rating": 4,
+        "url": "chitiet4.html"
+    },
+    {
+        "title": "Từ Thiện Thanh Nhan",
+        "author": "Thi Thanh Nhan",
+        "price": "59.000 đ",
+        "image": "/images/sach6.jpg",
+        "rating": 4,
+        "url": "chitiet5.html"
+    },
+    {
+        "title": "Giáo Dục Và Phát Triển Thể Thao",
+        "author": "Thi Thanh Nhan",
+        "price": "69.000 đ",
+        "image": "/images/sach7.jpg",
+        "rating": 5,
+        "url": "chitiet6.html"
+    },
+    {
+        "title": "Từ Thiện Thanh Nhan",
+        "author": "Thi Thanh Nhan",
+        "price": "59.000 đ",
+        "image": "/images/sach8.jpg",
+        "rating": 4,
+        "url": "chitiet7.html"
+    }
+]

@@ -1,0 +1,42 @@
+[
+    {
+      "khachHang": "Ông Trần Thuận",
+      "ngay": "18/10/2019",
+      "hoaDon": "20156",
+      "soTien": "150.000 ₫",
+      "tinhTrang": "Đã Thanh Toán",
+      "hoatDong": "Sao chép"
+    },
+    {
+      "khachHang": "Hoàng Vũ",
+      "ngay": "26/10/2019",
+      "hoaDon": "7859",
+      "soTien": "200.000 ₫",
+      "tinhTrang": "Đã Thanh Toán",
+      "hoatDong": "Gửi Email"
+    },
+    {
+      "khachHang": "QT shop",
+      "ngay": "18/11/2019",
+      "hoaDon": "6396",
+      "soTien": "250.000 ₫",
+      "tinhTrang": "Chưa Thanh Toán",
+      "hoatDong": "Trước hạn"
+    },
+    {
+      "khachHang": "Quang Minh",
+      "ngay": "14/12/2019",
+      "hoaDon": "7854",
+      "soTien": "500.000 ₫",
+      "tinhTrang": "Đã Thanh Toán",
+      "hoatDong": "Sao chép"
+    },
+    {
+      "khachHang": "QT Store",
+      "ngay": "24/12/2019",
+      "hoaDon": "568569",
+      "soTien": "10000 ₫",
+      "tinhTrang": "Đã Thanh Toán",
+      "hoatDong": "Gửi Email"
+    }
+  ]

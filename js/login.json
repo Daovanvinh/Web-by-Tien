@@ -1,0 +1,34 @@
+{
+    "users": [
+        {
+            "username": "admin1",
+            "password": "adminpassword123",
+            "type": "admin"
+        },
+        {
+            "username": "user1",
+            "password": "userpassword123",
+            "type": "user"
+        },
+        {
+            "username": "user2",
+            "password": "userpassword456",
+            "type": "user"
+        },
+        {
+            "username": "user3",
+            "password": "userpassword789",
+            "type": "user"
+        },
+        {
+            "username": "user4",
+            "password": "userpassword000",
+            "type": "user"
+        },
+        {
+            "username": "user5",
+            "password": "userpassword111",
+            "type": "user"
+        }
+    ]
+}

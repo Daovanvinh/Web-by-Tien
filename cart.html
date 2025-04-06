@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Giỏ hàng</title>
+    <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+    <!-- link bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Link awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+    <link rel="stylesheet" href="css/cart.css">
+</head>
+<body>
+    <div class="sidebar">
+        <h2 class="logo">NHASACHTV</h2>
+        <ul class="menu">
+            <li><a href="#"><i class="fas fa-home"></i> Giỏ Hàng <i class="fas fa-chevron-right"></i></a></li>
+            <li class="dropdown">
+                <a href="#" class="dropdown-btn">
+                    <i class="fas fa-list"></i> Danh Mục Sản Phẩm
+                    <i class="fas fa-chevron-right arrow "></i>
+                </a>
+                <ul class="dropdown-content">
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Trong Nước <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Kinh Tế <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Ngoại Ngữ <i
+                                class="fas fa-chevron-right"></i></a></li>
+                    <li><a href="#"><i class="fas fa-play-circle gray-icon"></i> Sách Văn Học <i
+                                class="fas fa-chevron-right"></i></a></li>
+                </ul>
+            </li>
+            <li><a href="#" class="li3"><i class="fas fa-heart"></i>
+                    <p>Yêu thích</p>
+                </a></li>
+            <li><a href="#" class="li3"><i class="fas fa-book"></i>
+                    <p>Sách PDF</p>
+                </a></li>
+            <li><a href="/login.html" class="li3"><i class="fas fa-sign-out-alt"></i>
+                    <p>Logout</p>
+                </a></li>
+        </ul>
+    </div>
+    <div class="main">
+        <header class="navbar">
+            <div class="left">
+                <h2>Trang Giỏ Hàng</h2>
+            </div>
+            <div class="center">
+                <input type="text" placeholder="🔍 sách cũ">
+            </div>
+            <div class="right">
+                <i class="fas fa-bell"></i>
+                <i class="fas fa-envelope"></i>
+                <div class="cart">
+                    <a href = "cart.html">
+                        <i class="fas fa-shopping-cart"></i>
+                        <span class="badge">2</span>
+                    </a>
+                </div>
+                <div class="user">
+                    <img src="/images/user.jpg" alt="Avatar">
+                    <div class="info">
+                        <span id="username"></span>
+                        <a href="/login.html">Tài Khoản</a>
+                    </div>
+                </div>
+            </div>
+        </header>
+        <div class="cart-list">
+            <h2>Giỏ hàng của bạn</h2>
+            <div id="cart-items"></div>
+            <h3 id="total-price">Tổng tiền: 0 VNĐ</h3>
+            <div class="btn">
+                <button id="clear-cart">Xóa giỏ hàng</button>
+                <button id="checkout">Thanh toán</button>
+            </div>
+            <a href="index.html">Quay lại mua sắm</a>
+        </div>
+        
+    </div>
+    <script src = "js/cart.js"></script>
+</body>
+</html>
